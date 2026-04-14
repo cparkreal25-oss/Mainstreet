@@ -867,7 +867,9 @@ header.scrolled .header-inner {
   display: flex;
   gap: 18px;
   padding: 8px 40px 24px;
-  width: max-content;
+  min-width: max-content;
+  width: 100%;
+  justify-content: center;
 }
 .testimonial-card {
   width: 420px;
